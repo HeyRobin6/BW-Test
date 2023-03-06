@@ -1,0 +1,89 @@
+.container {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 7px ;
+    padding: 10px;
+    box-shadow: 1px 5px 20px .1px rgba(0,0,0,.2);
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1px;
+    color: #55534f;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+    color: #55534f;
+}
+
+button.breathe-button {
+    display: inline;
+}
+
+/*button.stop {
+    display:none;
+}*/
+
+a {
+    color: #55534f;
+    text-decoration: none;
+    display: none
+}
+
+.container {
+    width: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.progress-bar {
+    width: 100%;
+    width: 170px;
+    height:5px;
+    background-color:gainsboro;
+    border-radius: 10px;
+    opacity: 100;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.inner-progress-bar {
+    width: 0%;
+    height:5px;
+    background-color: #55534f;
+    border-radius: 10px;
+}
+
+
+.counter {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3mm;
+    opacity: 100;
+}
+
+.inhale-exhale {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    margin-bottom: px;
+    opacity: 100%;
+}
+
+img {
+    width: 6%;
+    position: absolute;
+    left: 25px;
+    top: 95px;
+    
+}
